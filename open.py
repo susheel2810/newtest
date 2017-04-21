@@ -14,4 +14,5 @@ if __name__ == '__main__':
     print("File Name:" +file.name)
     print("Mode:"+file.mode)
     print("File Closed:"+str(file.closed))
+    file.close()
     
